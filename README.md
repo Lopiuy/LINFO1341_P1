@@ -5,7 +5,7 @@ Cas de figures:
  - appel avec vidéo avec son
  - appel avec vidéo sans son
  - appel sans vidéo sans son
- - appel avec video avec Sanson
+ - appel avec video avec Samson
  - pas d'appel (quand on fait rien skype echange quand même des paquets)
  - appel sans que l'autre personne ne réponde
  - alterner la personne qui racroche
