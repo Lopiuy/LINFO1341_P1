@@ -1,36 +1,10 @@
-## Projet 1 LINFO1341 - Réseaux informatiques
-### Victor Lepère, Ygor Lausberg
+<h1 align="center">
+  <br>
+  LINFO1341 - Réseaux informatiques
+  <br>
+</h1>
 
-# Analyse d'applications réseaux
-
-Cas de figures:
- - appel sans vidéo avec son
- - appel avec vidéo avec son
- - appel avec vidéo sans son
- - appel sans vidéo sans son
- - appel avec video avec Samson
- - pas d'appel (quand on fait rien skype echange quand même des paquets)
- - appel sans que l'autre personne ne réponde
- - alterner la personne qui racroche
+<h2 align="center">Projet 1 : Analyse d'applications réseaux.</h2>
 
 
-
-Netcat
-------
-
-1) netcat => établit une connexion TCP
-
-nc 'adresse IP' 'port'
-
-2) Requête HTTP
-
-GET / HTTP/1.1^M
-Host: multipath-tcp.org^M
-^M
-
-Traceroute
-----------
-traceroute 'adresse IP / site web'
-
-
-whois 'adresse IP'
+  <p align="center">Victor Lepère &nbsp;&middot;&nbsp;Ygor Lausberg</p>
