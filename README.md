@@ -1,4 +1,7 @@
-# LINFO1341_P1
+## Projet 1 LINFO1341 - Réseaux informatiques
+### Victor Lepère, Ygor Lausberg
+
+# Analyse d'applications réseaux
 
 Cas de figures:
  - appel sans vidéo avec son
