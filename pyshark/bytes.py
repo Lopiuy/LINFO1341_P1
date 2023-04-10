@@ -12,7 +12,7 @@ plt.rcParams['figure.dpi'] = 250
 time_array = []
 bytes_array = []
 
-for files in ['bytesVideo.pcapng', 'bytesAudio.pcapng']:
+for files in ['Traces/bytesVideo.pcapng', 'Traces/bytesAudio.pcapng']:
     cap = pyshark.FileCapture(files)
     tot_bytes = 0
 

@@ -11,7 +11,7 @@ mean = dict()
 mean['ipv4'] = []
 mean['ipv6'] = []
 
-for capture in ['AppelSonNoVideo.pcapng', 'SonNoVidNotEduroam.pcapng', 'SonVideoNotEduroam.pcapng', 'Appel Son + Vidéo/AppelSonVideo.pcapng']:
+for capture in ['Traces/SurEduroam/audio.pcapng', 'Traces/audio.pcapng', 'Traces/audio+video.pcapng', 'Traces/SurEduroam/audio+video.pcapng']:
 
     cap = pyshark.FileCapture(capture)
     ipv4 = 0.0

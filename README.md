@@ -38,6 +38,8 @@ Dans le terminal exécuter les commandes suivantes :
 
 ```bash
 $ python3 pyshark/script.py
+
+$ python3 pyshark/bytes.py
 ```
 
 ## Auteurs
