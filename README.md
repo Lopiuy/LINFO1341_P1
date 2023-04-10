@@ -7,8 +7,9 @@
 <h4 align="center">Projet 1 : Analyse d'application réseaux.</h4>
 
 <p align="center">
-  <a href="#sujets-étudiés">Sujets étudiés</a> •
-  <a href="#usage">Usage</a> •
+  <a href="#contexte">Contexte</a> •
+  <a href="#hiérarchie-du-répertoire">Hiérarchie du répertoire</a> •
+    <a href="#utilisation-des-scripts">Utilisation des scripts</a> •
   <a href="#auteurs">Auteurs</a> •
   <a href="#ressources">Ressources</a>
 </p>
