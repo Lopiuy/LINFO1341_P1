@@ -16,7 +16,7 @@
 
 ## Contexte
 
-Dans se répertoire vous retrouvez les fichiers pcap de captures d'échange de données faites via l'applictaion Skype. 
+Dans ce répertoire vous retrouvez les fichiers pcap de captures d'échange de données faites via l'application Skype. 
 Ainsi que les scripts python utilisés pour l'analyse de ces fichiers.  
 La majorité des captures ont été faites entre Victor et Ygor, Victor se situant  dans les environs de Namur et Ygor dans les environs de Bruxelles.
 Certaines captures ont été faites sur le réseau eduroam de l'UClouvain.
