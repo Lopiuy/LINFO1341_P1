@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08120319-3ac1-4e23-aa55-179eb54d4c44" name="Changes" comment="grrr" />
+    <list default="true" id="08120319-3ac1-4e23-aa55-179eb54d4c44" name="Changes" comment="grrr">
+      <change afterPath="$PROJECT_DIR$/.idea/LINFO1341_P1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Traces/BiCapture/V-POV/VAppelYgRaccrBicapture.pcapng" beforeDir="false" afterPath="$PROJECT_DIR$/Traces/BiCapture/V-POV/V=appel -&gt; Y=raccroche.pcapng" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Traces/BiCapture/V-POV/YgAppelVRacBicapture-POV_V2.pcapng" beforeDir="false" afterPath="$PROJECT_DIR$/Traces/BiCapture/V-POV/Y=appel -&gt; V=raccroche.pcapng" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +34,9 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ylaus/Documents/EPL/Q6/AI/AI-Assingments",
+    "last_opened_file_path": "/home/ylaus/Documents/EPL/Q6/Reseaux/LINFO1341_P1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +89,7 @@
       <workItem from="1679483891574" duration="226000" />
       <workItem from="1679492405651" duration="5445000" />
       <workItem from="1680015748539" duration="40000" />
+      <workItem from="1681117115939" duration="2925000" />
     </task>
     <task id="LOCAL-00001" summary="caca">
       <created>1678894193006</created>
