@@ -1,33 +1,59 @@
-# LINFO1341_P1
+<h1 align="center">
+  <br>
+  LINFO1341 – Réseaux informatiques
+  <br>
+</h1>
 
-Cas de figures:
- - appel sans vidéo avec son
- - appel avec vidéo avec son
- - appel avec vidéo sans son
- - appel sans vidéo sans son
- - appel avec video avec Samson
- - pas d'appel (quand on fait rien skype echange quand même des paquets)
- - appel sans que l'autre personne ne réponde
- - alterner la personne qui racroche
+<h4 align="center">Projet 1 : Analyse d'application réseaux.</h4>
 
+<p align="center">
+  <a href="#contexte">Contexte</a> •
+  <a href="#hiérarchie-du-répertoire">Hiérarchie du répertoire</a> •
+    <a href="#utilisation-des-scripts">Utilisation des scripts</a> •
+  <a href="#auteurs">Auteurs</a> •
+  <a href="#ressources">Ressources</a>
+</p>
 
+## Contexte
 
-Netcat
-------
-
-1) netcat => établit une connexion TCP
-
-nc 'adresse IP' 'port'
-
-2) Requête HTTP
-
-GET / HTTP/1.1^M
-Host: multipath-tcp.org^M
-^M
-
-Traceroute
-----------
-traceroute 'adresse IP / site web'
+Dans ce répertoire vous retrouvez les fichiers pcap de captures d'échange de données faites via l'application Skype. 
+Ainsi que les scripts python utilisés pour l'analyse de ces fichiers.  
+La majorité des captures ont été faites entre Victor et Ygor, Victor se situant  dans les environs de Namur et Ygor dans les environs de Bruxelles.
+Certaines captures ont été faites sur le réseau eduroam de l'UClouvain.
 
 
-whois 'adresse IP'
+## Hiérarchie du répertoire
+
+* **pyshark/** : contient les scripts python utilisés pour l'analyse des fichiers pcap
+* **Traces/** : contient les fichiers pcap analysés
+  * **BiCapture/** : contient les fichiers pcap des captures bidirectionnelle
+    * **V-POV/** : contient les fichiers pcap des captures bidirectionnelle capturé par Victor
+    * **Y-POV/** : contient les fichiers pcap des captures bidirectionnelle capturé par Ygor
+  * **SurEduroam/** : contient les fichiers pcap des captures faites sur le réseau eduroam de l'UClouvain
+  * Reste des captures n'ayant pas de contexte particulier
+
+## Utilisation des scripts
+
+Dans le terminal exécuter les commandes suivantes :
+
+```bash
+$ python3 pyshark/script.py
+```
+
+## Auteurs
+
+Les éléments de ce répertoire ont entièrement été créé par Ygor Lausberg et Victor Lepère dans le cadre du cours de *Réseaux Informatiques* dispensé par Pr. Olivier Bonaventure.
+
+## Ressources
+
+* [Réseaux informatique - LINFO1341](https://uclouvain.be/cours-2021-linfo1341) - Site du cours
+* [Syllabus](https://beta.computer-networking.info/syllabus/default/index.html) - Syllabus du cours
+* [Moodle](https://moodle.uclouvain.be/course/view.php?id=1269) - Moodle du cours
+
+---
+
+> GitHub [Projet](https://github.com/Lopiuy/LINFO1341_P1) &nbsp;&middot;&nbsp;
+> [Ygor Lausberg](mailto:ygor.lausberg@student.uclouvain.be) &nbsp;&middot;&nbsp;
+> GitHub [@Lopiuy](https://github.com/Lopiuy) &nbsp;&middot;&nbsp;
+> [Victor Lepère](mailto:victor.lepere@student.uclouvain.be) &nbsp;&middot;&nbsp;
+> GitHub [@victxrrr](https://github.com/victxrrr)
